@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 
 class Config:
-  API_ID = int(os.environ.get("API_ID", 1234))
-  API_HASH = os.environ.get("API_HASH", '')
+  API_ID = 16349774
+  API_HASH = "fa09cf6cdfdc16a315cafca62909857e"
   TOKEN = os.environ.get("TOKEN", "")
   BOTUSERNAME = os.environ.get("BOTUSERNAME", "")
